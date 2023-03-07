@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OSSModelStoreContainer" CdmEntityContainer="OSSEntities">
+    <EntitySetMapping Name="UserMasters">
+      <EntityTypeMapping TypeName="OSSModel.UserMaster">
+        <MappingFragment StoreEntitySet="UserMaster">
+          <ScalarProperty Name="UsertableId" ColumnName="UsertableId" />
+          <ScalarProperty Name="loginUIid" ColumnName="loginUIid" />
+          <ScalarProperty Name="MaxisId" ColumnName="MaxisId" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="WorkforceId" ColumnName="WorkforceId" />
+          <ScalarProperty Name="SupervisorId" ColumnName="SupervisorId" />
+          <ScalarProperty Name="SupervisorName" ColumnName="SupervisorName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="UserStatus" ColumnName="UserStatus" />
+          <ScalarProperty Name="UserIdentification" ColumnName="UserIdentification" />
+          <ScalarProperty Name="VendorCode" ColumnName="VendorCode" />
+          <ScalarProperty Name="VendorName" ColumnName="VendorName" />
+          <ScalarProperty Name="UserRoles" ColumnName="UserRoles" />
+          <ScalarProperty Name="Applications" ColumnName="Applications" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="SupervisorEmail" ColumnName="SupervisorEmail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

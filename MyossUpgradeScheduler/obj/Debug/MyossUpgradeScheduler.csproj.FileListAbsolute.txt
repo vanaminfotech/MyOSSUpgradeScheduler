@@ -1,0 +1,14 @@
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\obj\Debug\MyossUpgradeScheduler.SchedulerForm.resources
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\obj\Debug\MyossUpgradeScheduler.Properties.Resources.resources
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\obj\Debug\MyossUpgradeScheduler.csproj.GenerateResource.cache
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\obj\Debug\MyossUpgradeScheduler.csproj.CoreCompileInputs.cache
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\bin\Debug\MyossUpgradeScheduler.exe.config
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\bin\Debug\MyossUpgradeScheduler.exe
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\bin\Debug\MyossUpgradeScheduler.pdb
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\bin\Debug\EntityFramework.dll
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\bin\Debug\EntityFramework.xml
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\obj\Debug\MyossUpgradeScheduler.csproj.CopyComplete
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\obj\Debug\MyossUpgradeScheduler.exe
+D:\GitVanam\MyossUpgradeScheduler\MyossUpgradeScheduler\obj\Debug\MyossUpgradeScheduler.pdb

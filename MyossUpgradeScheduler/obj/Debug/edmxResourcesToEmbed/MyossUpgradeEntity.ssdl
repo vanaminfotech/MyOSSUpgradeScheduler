@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OSSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'OSSTest.dbo.UserMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="UserMaster">
+    <Key>
+      <PropertyRef Name="UsertableId" />
+      <PropertyRef Name="MaxisId" />
+      <PropertyRef Name="UserStatus" />
+      <PropertyRef Name="CreatedDate" />
+    </Key>
+    <Property Name="UsertableId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="loginUIid" Type="varchar" MaxLength="100" />
+    <Property Name="MaxisId" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="DisplayName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Department" Type="nvarchar" MaxLength="100" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="100" />
+    <Property Name="WorkforceId" Type="nvarchar" MaxLength="100" />
+    <Property Name="SupervisorId" Type="nvarchar" MaxLength="100" />
+    <Property Name="SupervisorName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="UserStatus" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="UserIdentification" Type="nvarchar" MaxLength="25" />
+    <Property Name="VendorCode" Type="nvarchar" MaxLength="255" />
+    <Property Name="VendorName" Type="nvarchar" MaxLength="255" />
+    <Property Name="UserRoles" Type="nvarchar(max)" />
+    <Property Name="Applications" Type="nvarchar(max)" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="500" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="500" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="SupervisorEmail" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="OSSModelStoreContainer">
+    <EntitySet Name="UserMaster" EntityType="Self.UserMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [UserMaster].[UsertableId] AS [UsertableId], 
+    [UserMaster].[loginUIid] AS [loginUIid], 
+    [UserMaster].[MaxisId] AS [MaxisId], 
+    [UserMaster].[DisplayName] AS [DisplayName], 
+    [UserMaster].[Department] AS [Department], 
+    [UserMaster].[Phone] AS [Phone], 
+    [UserMaster].[WorkforceId] AS [WorkforceId], 
+    [UserMaster].[SupervisorId] AS [SupervisorId], 
+    [UserMaster].[SupervisorName] AS [SupervisorName], 
+    [UserMaster].[Email] AS [Email], 
+    [UserMaster].[UserStatus] AS [UserStatus], 
+    [UserMaster].[UserIdentification] AS [UserIdentification], 
+    [UserMaster].[VendorCode] AS [VendorCode], 
+    [UserMaster].[VendorName] AS [VendorName], 
+    [UserMaster].[UserRoles] AS [UserRoles], 
+    [UserMaster].[Applications] AS [Applications], 
+    [UserMaster].[CreatedBy] AS [CreatedBy], 
+    [UserMaster].[CreatedDate] AS [CreatedDate], 
+    [UserMaster].[ModifiedBy] AS [ModifiedBy], 
+    [UserMaster].[ModifiedDate] AS [ModifiedDate], 
+    [UserMaster].[SupervisorEmail] AS [SupervisorEmail]
+    FROM [dbo].[UserMaster] AS [UserMaster]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
